@@ -13,14 +13,14 @@
 
 body{
     background-color: var(--light-gray);
-    font-size: 13px;
+    font-size: 15px;
     color: var(--gray-blue);
     font-family: var(--content-font);
 }
 
 h1{
     color: var(--dark-blue);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -33,7 +33,7 @@ main{
 .qr-container{
     display: grid;
     background-color: white;
-    width: 250px;
+    width: 300px;
     padding: 13px;
     border-radius: 20px;
     text-align: center;
@@ -50,4 +50,8 @@ main{
 
 .qr-container p{
     margin-bottom: 20px;
+}
+
+.qr-container h1, .qr-container p{
+    padding: 0px 10px;
 }
